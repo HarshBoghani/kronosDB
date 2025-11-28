@@ -33,7 +33,7 @@ The easiest way to get KronosDB running is by using the pre-built Docker image a
 **Run the container:**
 
 ```bash
-docker run -d -p 12345:12345 --name kronosdb anshbalar429/kronosdb:latest
+docker run -d -p 12345:12345 --name kronosdb harshboghani/kronosdb:latest
 ```
 
 Your KronosDB instance is now running.
@@ -127,7 +127,6 @@ If you prefer to build the project yourself:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/AnshBalar429/KronosDB.git
 cd KronosDB
 
 # 2. Configure the project with CMake
